@@ -68,6 +68,7 @@ end
 ask patches [ if pcolor = black [ if random-float 1000 < grass-grow-rate [ set pcolor green ] ] if pcolor = black or pcolor = green [ if random-float 1000 < weeds-grow-rate [ set pcolor violet ] ] ] end
 </pre>
 
+![Вигляд програми](interface.png)
 ## Обчислювальні експерименти
 
 ### 1.Вплив ймовірності захворювань при поїданні бур'янів.
